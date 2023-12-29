@@ -26,7 +26,7 @@ export default function Landing() {
           </a>
         </div>
         <div className="flex flex-col items-center justify-center text-center grow perspective-250">
-          <div className="bg-neutral-100 dark:bg-neutral-800 px-4 py-3 rounded-lg w-80 flex flex-col gap-3 relative rotate-x-3 transform-style-3d">
+          <div className="bg-neutral-100 dark:bg-neutral-800 px-4 py-3 rounded-lg w-80 flex flex-col gap-3 relative -rotate-y-3 rotate-x-3 transform-style-3d">
             <div className="flex items-center gap-2">
               <p className="text-3xl font-semibold">#</p>
               <p className="text-lg">counting</p>
