@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
             height={35}
             className="rounded-full"
           />
-          <h1 className="text-yellow-300 text-2xl font-bold tracking-tight">
+          <h1 className="nx-text-primary-600 text-2xl font-bold tracking-tight">
             Countify
           </h1>
         </Link>

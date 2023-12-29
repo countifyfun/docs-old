@@ -1,17 +1,23 @@
 import Image from "next/image";
+import Link from "next/link";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import React from "react";
 import Footer from "./components/footer";
 
 const config: DocsThemeConfig = {
   logo: (
-    <Image
-      src="/logo.png"
-      alt="Countify Logo"
-      width={40}
-      height={40}
-      className="rounded-full"
-    />
+    <div className="flex items-center gap-2">
+      <Image
+        src="/logo.png"
+        alt="Countify Logo"
+        width={40}
+        height={40}
+        className="rounded-full"
+      />
+      <p className="text-3xl font-bold tracking-tighter nx-text-primary-600">
+        docs
+      </p>
+    </div>
   ),
   project: {
     link: "https://github.com/shuding/nextra-docs-template",
