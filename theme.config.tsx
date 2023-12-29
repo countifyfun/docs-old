@@ -14,6 +14,7 @@ const config: DocsThemeConfig = {
   footer: {
     text: <Footer />,
   },
+  primaryHue: 53,
 };
 
 export default config;
