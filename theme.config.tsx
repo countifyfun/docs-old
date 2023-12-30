@@ -4,6 +4,54 @@ import React from "react";
 import Footer from "./components/footer";
 
 const config: DocsThemeConfig = {
+  useNextSeoProps: () => ({
+    titleTemplate: "%s – Countify",
+    description: "Documentation for your dream Discord counting bot.",
+    twitter: {
+      cardType: "summary_large_image",
+      handle: "@ToastedDev",
+    },
+    openGraph: {
+      type: "website",
+      url: "https://docs.countify.fun",
+      images: [
+        {
+          url: "https://countify.fun/og.jpg",
+        },
+      ],
+    },
+    additionalLinkTags: [
+      {
+        href: "https://countify.fun/apple-icon-180x180.png",
+        rel: "apple-touch-icon",
+        sizes: "180x180",
+      },
+      {
+        href: "https://countify.fun/android-icon-192x192.png",
+        rel: "icon",
+        sizes: "192x192",
+        type: "image/png",
+      },
+      {
+        href: "https://countify.fun/favicon-32x32.png",
+        rel: "icon",
+        sizes: "32x32",
+        type: "image/png",
+      },
+      {
+        href: "https://countify.fun/favicon-16x16.png",
+        rel: "icon",
+        sizes: "16x16",
+        type: "image/png",
+      },
+      {
+        href: "https://countify.fun/favicon.ico",
+        rel: "icon",
+        type: "image/x-icon",
+        sizes: "16x16",
+      },
+    ],
+  }),
   logo: (
     <div className="flex items-center gap-2">
       <Image
