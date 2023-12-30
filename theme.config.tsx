@@ -1,5 +1,4 @@
 import Image from "next/image";
-import Link from "next/link";
 import { DocsThemeConfig } from "nextra-theme-docs";
 import React from "react";
 import Footer from "./components/footer";
@@ -20,14 +19,11 @@ const config: DocsThemeConfig = {
     </div>
   ),
   project: {
-    link: "https://github.com/shuding/nextra-docs-template",
-  },
-  chat: {
-    link: "https://discord.com",
+    link: "https://github.com/countifyfun/bot",
   },
   navbar: {
     extraContent: (
-      <a href="/invite" className="p-2">
+      <a href="https://countify.fun/invite" className="p-2">
         <svg
           xmlns="http://www.w3.org/2000/svg"
           viewBox="0 0 24 24"
@@ -40,7 +36,7 @@ const config: DocsThemeConfig = {
       </a>
     ),
   },
-  docsRepositoryBase: "https://github.com/shuding/nextra-docs-template",
+  docsRepositoryBase: "https://github.com/countifyfun/docs",
   footer: {
     text: <Footer />,
   },
