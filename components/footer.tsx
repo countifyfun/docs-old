@@ -10,7 +10,7 @@ const Footer: React.FC = () => {
       </h2>
       <div>
         <Link
-          className="flex items-center justify-center gap-2 hover:opacity-75 md:justify-normal md:w-fit"
+          className="flex items-center justify-center gap-2 hover:opacity-75 md:justify-normal md:w-fit transition-all"
           href="/"
         >
           <Image

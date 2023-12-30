@@ -1,3 +1,15 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.cbs nav > a {
+  @apply transition-all;
+}
+
+.cbs nav > a:hover svg {
+  --tw-text-opacity: 1;
+  color: hsl(
+    var(--nextra-primary-hue) 100% 45% / var(--tw-text-opacity)
+  ) !important;
+  @apply transition-all;
+}
