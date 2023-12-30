@@ -36,9 +36,16 @@ const config: DocsThemeConfig = {
       </a>
     ),
   },
-  docsRepositoryBase: "https://github.com/countifyfun/docs",
+  docsRepositoryBase: "https://github.com/countifyfun/docs/edit/main",
   footer: {
     text: <Footer />,
+  },
+  editLink: {
+    text: "Edit this page on GitHub →",
+  },
+  feedback: {
+    content: "Questions? Give us feedback →",
+    labels: "feedback",
   },
   primaryHue: 53,
   darkMode: false,
