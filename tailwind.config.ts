@@ -1,6 +1,5 @@
-import tailwind3d from "tailwindcss-3d";
+import type { Config } from "tailwindcss";
 
-/** @type {import('tailwindcss').Config} */
 export default {
   content: [
     "./pages/**/*.{js,jsx,ts,tsx,md,mdx}",
@@ -10,5 +9,5 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [tailwind3d],
-};
+  plugins: [],
+} as Config;
