@@ -7,6 +7,7 @@ const config: DocsThemeConfig = {
   useNextSeoProps: () => ({
     titleTemplate: "%s – Countify",
     description: "Documentation for your dream Discord counting bot.",
+    themeColor: "#fde047",
     twitter: {
       cardType: "summary_large_image",
       handle: "@ToastedDev",
