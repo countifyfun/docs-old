@@ -34,9 +34,6 @@ devDependencies:
   tailwindcss:
     specifier: ^3.4.0
     version: 3.4.0
-  tailwindcss-3d:
-    specifier: ^1.0.4
-    version: 1.0.4(tailwindcss@3.4.0)
   typescript:
     specifier: ^4.9.3
     version: 4.9.3
@@ -381,12 +378,6 @@ packages:
     dependencies:
       tslib: 2.4.1
     dev: false
-
-  /@swc/helpers@0.5.3:
-    resolution: {integrity: sha512-FaruWX6KdudYloq1AHD/4nU+UsMTdNE8CKyrseXWEcgjDAbvkwJg2QGPAnfIJLIWsjZOSPLOAykK6fuYp4vp4A==}
-    dependencies:
-      tslib: 2.4.1
-    dev: true
 
   /@types/acorn@4.0.6:
     resolution: {integrity: sha512-veQTnWP+1D/xbxVrPC3zHnCZRjSrKfhbMUlEA43iMZLu7EsnTtkJklIuwrCPbOi8YkvDQAiW05VQQFvvz9oieQ==}
@@ -1286,10 +1277,6 @@ packages:
   /lodash.get@4.4.2:
     resolution: {integrity: sha512-z+Uw/vLuy6gQe8cfaFWD7p0wVv8fJl3mbzXh33RS+0oW2wvUqiRXiQ69gLWSLpgB5/6sU+r6BlQR0MBILadqTQ==}
     dev: false
-
-  /lodash@4.17.21:
-    resolution: {integrity: sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==}
-    dev: true
 
   /longest-streak@3.1.0:
     resolution: {integrity: sha512-9Ri+o0JYgehTaVBBDoMqIl8GXtbWg711O3srftcHhZ0dqnETqLaoIK0x17fUw9rFSlK/0NlsKe0Ahhyl5pXE2g==}
@@ -2621,16 +2608,6 @@ packages:
     engines: {node: '>= 0.4'}
     dev: true
 
-  /tailwindcss-3d@1.0.4(tailwindcss@3.4.0):
-    resolution: {integrity: sha512-sANPhLopZLSWz3qugdkSynPTEH52rq0i/NdQnxoKGKuuiBybppUeeOhpUGG+eX5NcgZcJEXHG4SeDbc8Q0H00w==}
-    peerDependencies:
-      tailwindcss: '>=3.2.0'
-    dependencies:
-      '@swc/helpers': 0.5.3
-      lodash: 4.17.21
-      tailwindcss: 3.4.0
-    dev: true
-
   /tailwindcss@3.4.0:
     resolution: {integrity: sha512-VigzymniH77knD1dryXbyxR+ePHihHociZbXnLZHUyzf2MMs2ZVqlUrZ3FvpXP8pno9JzmILt1sZPD19M3IxtA==}
     engines: {node: '>=14.0.0'}
@@ -2711,6 +2688,7 @@ packages:
 
   /tslib@2.4.1:
     resolution: {integrity: sha512-tGyy4dAjRIEwI7BzsB0lynWgOpfqjUdq91XXAlIWD2OwKBH7oCl/GZG/HT4BOHrTlPMOASlMQ7veyTqpmRcrNA==}
+    dev: false
 
   /type-fest@1.4.0:
     resolution: {integrity: sha512-yGSza74xk0UG8k+pLh5oeoYirvIiWo5t0/o3zHHAO2tRDiZcxWP7fywNlXhqb6/r6sWvwi+RsyQMWhVLe4BVuA==}
