@@ -45,7 +45,6 @@ const config: DocsThemeConfig = {
     text: <Footer />,
   },
   primaryHue: 53,
-  primarySaturation: 110,
 };
 
 export default config;
