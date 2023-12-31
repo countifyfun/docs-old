@@ -1,6 +1,8 @@
 {
   "index": "Introduction",
   "getting-started": "Getting Started",
+  "settings": "Settings",
+  "api-reference": "API Reference",
   "home": {
     "title": "Home",
     "type": "page",
